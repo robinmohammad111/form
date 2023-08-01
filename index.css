@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    
+    margin: 2rem auto;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 1px 5px rgba(0,0,0,2);
+    border-radius: 1px;
+    /* text-align: center; */
+    padding: 10px;
+
+}
+h1 {
+    width: 100%;
+    background-color: aqua;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+.inlineform , .Password  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.50rem;
+    gap: 2rem;
+    
+}
+.gender {
+    
+    display: flex;
+    gap: 20px;
+}
+.formgroup {
+    margin-bottom: 2rem;
+}
+label {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+input ,textarea ,select {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #ddd;
+    border: none;
+    outline: 0;
+    margin-bottom: 6px;
+
+}
+textarea {
+    width: 100%;
+}
+

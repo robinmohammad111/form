@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href=".//index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Complex For Design</h1>
+      <section class="formgroup">
+        <form action="">
+          <div class="inlineform">
+            <div>
+              <label for="fname">First Name</label><br />
+              <input type="text" id="fname" placeholder="enter your name" />
+            </div>
+            <div>
+              <label for="lname">Last Name</label><br />
+              <input type="text" id="lname" placeholder="enter your name" />
+            </div>
+          </div>
+          <div class="inlineform">
+            <div>
+              <label for="email">Email</label> <br />
+              <input type="email" id="email" placeholder="user@gmail.com" />
+            </div>
+            <div>
+              <label for="phn">Phone No</label> <br />
+              <input type="tel" id="phn" />
+            </div>
+          </div>
+          <div class="inlineform">
+            <div>
+              <label for="coun">Country</label><br />
+              <select name="" id="coun">
+                <option value="bangladesh">Bangladesh</option>
+                <option value="india">India</option>
+                <option value="Pakistan">Pakistan</option>
+              </select>
+            </div>
+            <div>
+              <label for="city">City</label> <br />
+              <select name="" id="city">
+                <option value="dhaka">dhaka</option>
+                <option value="islamabad">islamabad</option>
+                <option value="mumbai">mumbai</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="gender">
+            <div>
+              <label class="gender-tile" for="gndr">Gender</label>
+              <input type="radio" value="male" id="gndr" name="gndr" /><label
+                for=""
+                >Male</label
+              >
+            </div>
+            <div>
+              <input type="radio" name="gndr" id="gndr" /><label for="gndr"
+                >Female</label
+              >
+            </div>
+            <div>
+              <input type="radio" name="gndr" id="gndr" /><label for="gndr"
+                >Other</label
+              >
+            </div>
+          </div>
+          <div class="bio">
+            <label for="hm">Bio</label>
+            <br />
+            <textarea name="" id="hm" cols="30" rows="10"></textarea>
+          </div>
+          <div class="Password">
+            <div>
+              <label for="pass">Password</label>
+              <input type="password" id="pass" placeholder="password" />
+            </div>
+            <div>
+              <label for="cpass">Confirm Password</label>
+              <input type="password" id="cpass" placeholder="Password" />
+            </div>
+          </div>
+        </form>
+        <div class="checkbox">
+          <input type="checkbox" id="hmm" />
+          <label for="hmm">I accept term and conditon</label>
+        </div>
+        <div class="sub-res">
+          <label for="sub"></label>
+          <input type="reset" id="sub" />
+          <label for="res"></label>
+          <input type="submit" id="res" />
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
